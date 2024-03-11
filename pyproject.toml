@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ecommerce-analysis-eda"
+version = "0.1.0"
+description = "Projeto de análise de dados de um e-commerce"
+authors = ["gabrielpastega <gabrielpbreis@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+polars = "^0.20.15"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
